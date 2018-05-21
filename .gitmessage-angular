@@ -1,0 +1,47 @@
+(): 
+
+
+# Based on angular.js commit convention
+# Usage:
+# <type>(<scope>): <subject>
+# 
+# <additional message>
+#
+# (filepaths are optional)
+# -----------------------------------------------------------------------------
+# Types:
+# feat(<text>):     - used for feature commit
+# fix(<text>):      - used for fixing commit
+# docs(<text>):     - used for documentation
+# style(<text>):    - used for style changes
+# refactor(<text>): - used for refactoration
+# test(<text>):     - used for testing commit
+# chore(<text>):    - used for maintainance commit
+# perf(<text>):     - used for remotions leading to breaking changes in app
+# BREAKING CHANGE:  - used for breaking changes in app
+# -----------------------------------------------------------------------------
+# <scope>
+# Scope could be anything specifying place or target of the commit change.
+# For example $location, $browser, $compile, $rootScope, etc...
+# -----------------------------------------------------------------------------
+# <subject>
+# - use imperative, present tense: “change” not “changed” nor “changes”
+# - don't capitalize first letter
+# - no dot (.) at the end
+# -----------------------------------------------------------------------------
+# Examples:
+# -----------------------------------------------------------------------------
+# Co-authors (GitHub only)
+#	use this when pairing
+#
+# Co-authored-by: John Doe <johndoe@example.com>
+#
+# use git's no-reply mail address to keep e-mail privacy.
+# -----------------------------------------------------------------------------
+# How to make a good commit message:
+# 
+# 1- the first line must be short and assertive.
+# 2- never use $ git commit -m "" or $ git commit --message=<>.
+# 3- link the commit to it's respective issue at the comment section of msg.
+# 4- use line breaks godd@mn!
+# 
